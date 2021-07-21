@@ -1,0 +1,4 @@
+Dear Candidate,
+Please, recreate the accordion element. For more information, see accordion-open.png.
+Thank you and best regards,
+WCM Team

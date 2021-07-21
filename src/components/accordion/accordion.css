@@ -1,0 +1,57 @@
+.acordionNavigationRow {
+  background-color: #f7f7f7;
+  border-bottom: 2px solid #e0e0e0;
+  height: 80px;
+  position: relative;
+}
+.welcomeText {
+  display: flex;
+  align-items: center;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+.arrowDown {
+  font-size: 35px;
+  margin-top: 20px;
+  position: absolute;
+  right: 10px;
+}
+.thanksPhoto {
+  width: 100%;
+}
+.text {
+  text-align: left;
+  vertical-align: middle;
+  letter-spacing: 1px;
+  font-size: 21px;
+}
+.imgCol {
+  display: flex;
+  align-items: center;
+}
+.thankYouImgCol {
+  display: flex;
+  align-items: center;
+}
+.textCol {
+  display: flex;
+  align-items: center;
+}
+.infoRow {
+  opacity: 0;
+  visibility: hidden;
+}
+.infoRowVisable {
+  opacity: 1;
+  transition: ease-in-out 1s;
+}
+@media only screen and (max-width: 600px) {
+  .text {
+    text-align: left;
+    vertical-align: middle;
+    letter-spacing: 0.5px;
+    font-size: 4px;
+  }
+}
